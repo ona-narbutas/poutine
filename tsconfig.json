@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "target": "ES6",
+    "allowSyntheticDefaultImports": true,
+    "types": ["node", "express"],
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*"]
+}
